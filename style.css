@@ -22,3 +22,17 @@ DIV {
 	margin-left: auto;
 	height:50px;
 }
+
+#FooterLeft {
+	float:left;
+	width:399px; /*49.5%*/
+	height:50px;
+	border: 1px solid green;
+}
+
+#FooterRight {
+	float:right;
+	width:399px; /*49.5%*/
+	height:50px;
+	border: 1px solid red;
+}
