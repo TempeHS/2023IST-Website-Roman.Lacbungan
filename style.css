@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserra')
+
+BODY {
+	font-family: 'Montserrat', light-300;
+}
+
 DIV {
 	border: 1px solid #000000;
 }
@@ -35,4 +41,10 @@ DIV {
 	width:399px; /*49.5%*/
 	height:50px;
 	border: 1px solid red;
+}
+
+@media only screen and (max-width: 998px) {
+	#Footer, #MainContent, #Header {
+		width:100%;
+	}
 }
