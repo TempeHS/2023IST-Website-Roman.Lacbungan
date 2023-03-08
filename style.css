@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserra')
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 BODY {
-	font-family: 'Montserrat', light-300;
+	font-family: 'Montserrat', sans-serif;
 }
 
 DIV {
