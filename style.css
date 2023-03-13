@@ -4,6 +4,46 @@ BODY {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.button {
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+	
+padding: 20px 40px;
+  border-radius: 8px;
+  color: #212121;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button-1 {
+	color:FFCE00;
+	border: 3px solid#FFCE00
+}
+
+.button-1:hover {
+  color: #FFF;
+  background-color: #FFCE00;
+}
+
+.button-2 {
+	color: FE4880;
+	border: 3px solid #FE4880;
+	background-image: linear-gradient(to right, transparent 50%, #FE4880 50%);
+	background-size: 200%;
+	background-position: 0%;
+}
+
+.button-2:hover {
+	color: #FFF;
+	background-position: 100%;
+}
+	
+
 DIV {
 	border: 1px solid #000000;
 }
